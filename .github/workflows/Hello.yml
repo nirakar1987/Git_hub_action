@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - main
-jobs: null
-greet:
+jobs: 
+ greet:
   runs-on: ubuntu-latest
   steps:
     - name: say hello to users
